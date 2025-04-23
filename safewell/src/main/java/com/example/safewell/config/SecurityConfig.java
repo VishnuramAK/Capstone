@@ -20,7 +20,7 @@ public class SecurityConfig {
         http
             .csrf(csrf -> csrf.disable()) // ✅ CSRF must be disabled for POST requests from Postman
             .authorizeHttpRequests(auth -> auth
-                .requestMatchers("/auth/**", "/contacts/**").permitAll() // ✅ Public endpoints
+                .requestMatchers("/auth/**", "/contacts/**","/unsafe-areas/**").permitAll() // ✅ Public endpoints
                 .anyRequest().authenticated()
             );
 
