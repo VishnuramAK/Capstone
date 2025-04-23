@@ -1,0 +1,5 @@
+package com.example.safewell.config;
+
+public class SecurityConfig {
+
+}

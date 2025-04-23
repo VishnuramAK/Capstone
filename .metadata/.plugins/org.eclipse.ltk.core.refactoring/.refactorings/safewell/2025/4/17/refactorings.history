@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;com.example.safewell.securityconfiguration&apos; to &apos;com.example.safewell.config&apos;&#x0D;&#x0A;- Original project: &apos;safewell&apos;&#x0D;&#x0A;- Original element: &apos;safewell/src/main/java/com.example.safewell.securityconfiguration&apos;&#x0D;&#x0A;- Renamed element: &apos;safewell/src/main/java/com.example.safewell.config&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;com.example.safewell.securityconfiguration&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.example.safewell.securityconfiguration" name="com.example.safewell.config" qualified="false" references="true" stamp="1745294622547" textual="false" version="1.0"/>
+</session>
