@@ -21,6 +21,10 @@ public class EmergencyContactService {
     private UserRepository userRepo;
 
     public String addEmergencyContact(EmergencyContactRequest request) {
+    	if (request.getUserId() == null) {
+            return "User ID must not be null.";
+        }
+
         Optional<User> userOpt = userRepo.findById(request.getUserId());
         if (userOpt.isEmpty()) {
             return "User not found.";
